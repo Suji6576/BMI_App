@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,18 +11,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="신장"/>
+        android:text="신장"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/heightEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:inputType="number" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="체중"/>
+        android:layout_marginTop="20dp"
+        android:text="체중"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/weightEdt"
@@ -32,9 +36,9 @@
         android:inputType="number" />
 
     <Button
-        android:id="@+id/okBtn"
+        android:id="@+id/resultBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="확인하기"/>
+        android:text="확인하기" />
 
 </LinearLayout>
